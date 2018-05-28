@@ -8,9 +8,9 @@ Write-Host -ForegroundColor yellow "We are constantly looking to make Gauge bett
 
 Install-ChocolateyZipPackage -PackageName "$packageName" -Url "$url" -Url64 "$url64" -UnzipLocation "$location" -validExitCodes $validExitCodes
 
-$currentPath = (Get-Itemproperty -path 'hklm:\system\currentcontrolset\control\session manager\environment' -Name Path).Path
+$currentPath = [environment]::GetEnvironmentVariable("PATH", "Machine")
 
 if($currentPath -NotLike "*$location*") {
     $newPath = $currentPath + "$location"
-    Set-ItemProperty -path 'hklm:\system\currentcontrolset\control\session manager\environment' -Name Path -Value $newPath
+    [environment]::SetEnvironmentVariable("PATH", $newPath, "Machine")
 }
