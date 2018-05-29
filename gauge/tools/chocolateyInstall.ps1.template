@@ -11,6 +11,6 @@ Install-ChocolateyZipPackage -PackageName "$packageName" -Url "$url" -Url64 "$ur
 $currentPath = [environment]::GetEnvironmentVariable("PATH", "Machine")
 
 if($currentPath -NotLike "*$location*") {
-    $newPath = $currentPath + "$location"
+    $newPath = $currentPath + ";" + "$location"
     [environment]::SetEnvironmentVariable("PATH", $newPath, "Machine")
 }
