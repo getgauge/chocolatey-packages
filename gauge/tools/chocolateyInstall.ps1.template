@@ -8,4 +8,9 @@ Write-Host -ForegroundColor yellow "We are constantly looking to make Gauge bett
 
 Install-ChocolateyZipPackage -PackageName "$packageName" -Url "$url" -Url64 "$url64" -UnzipLocation "$location" -validExitCodes $validExitCodes
 
-setx /m path "$env:PATH;$location"
+$currentPath = [environment]::GetEnvironmentVariable("PATH", "Machine")
+
+if($currentPath -NotLike "*$location*") {
+    $newPath = $currentPath + ";" + "$location"
+    [environment]::SetEnvironmentVariable("PATH", $newPath, "Machine")
+}
