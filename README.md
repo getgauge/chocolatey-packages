@@ -1,4 +1,7 @@
 ## Create a new chocolatey package
+
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
+
 - Install Chocolatey
 - Create a new folder with the same name as the chocolatey package you intend to create
 - Follow the same structure as regular chocoately packages inside that folder (see gauge for example or follow [this]( https://github.com/chocolatey/choco/wiki)) 
