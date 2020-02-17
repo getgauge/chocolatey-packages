@@ -15,8 +15,7 @@
     <copyright>Copyright 2016 ThoughtWorks, Inc.</copyright>
     <licenseUrl>http://www.gnu.org/licenses/gpl-3.0.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!-- Important note about https://cdn.rawgit.com: Files are cached permanently after the first request. Use commit URLs when updating the icon. -->
-    <iconUrl>https://cdn.rawgit.com/getgauge/getgauge.github.io/master/new/assets/images/Gauge-Logo-no-name.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/getgauge/chocolatey-packages@577cd6ab6603291a300968734031e67483085bc6/assets/Gauge_Black_Logo-302x76-8f3692c.png</iconUrl>
     <dependencies>
     </dependencies>
     <releaseNotes>
