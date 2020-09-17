@@ -12,8 +12,8 @@
     <description>You can use this package to install Gauge on Windows</description>
     <projectUrl>http://getgauge.io/</projectUrl>
     <tags>gauge test automation</tags>
-    <copyright>Copyright 2016 ThoughtWorks, Inc.</copyright>
-    <licenseUrl>http://www.gnu.org/licenses/gpl-3.0.txt</licenseUrl>
+    <copyright>Copyright 2020 ThoughtWorks, Inc.</copyright>
+    <licenseUrl>https://www.apache.org/licenses/LICENSE-2.0.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.jsdelivr.net/gh/getgauge/chocolatey-packages@577cd6ab6603291a300968734031e67483085bc6/assets/Gauge_Black_Logo-302x76-8f3692c.png</iconUrl>
     <dependencies>
