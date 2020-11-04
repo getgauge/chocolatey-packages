@@ -20,7 +20,7 @@
     <projectSourceUrl>https://github.com/getgauge/gauge</projectSourceUrl>
     <bugTrackerUrl>https://github.com/getgauge/gauge/issues</bugTrackerUrl>
     <docsUrl>https://docs.gauge.org</docsUrl>
-    <mailingListUrl>getgauge@googlegroups.com</mailingListUrl>
+    <mailingListUrl>https://groups.google.com/g/getgauge</mailingListUrl>
   </metadata>
   <files>
     <file src="tools\chocolateyInstall.ps1" target="tools" />
