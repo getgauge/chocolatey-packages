@@ -1,10 +1,8 @@
 $packageName = 'gauge'
-$url = "https://github.com/getgauge/gauge/releases/download/v{{version}}/gauge-{{version}}-windows.x86.zip"
-$url64 = "https://github.com/getgauge/gauge/releases/download/v{{version}}/gauge-{{version}}-windows.x86_64.zip"
 $location = "$env:PROGRAMFILES\gauge\bin"
 $validExitCodes = @(0)
 
-Install-ChocolateyZipPackage -PackageName "$packageName" -Url "$url" -Url64 "$url64" -UnzipLocation "$location" -validExitCodes $validExitCodes
+Install-ChocolateyZipPackage -PackageName "$packageName" -Url "{{url}}" -Checksum "{{checksum}}" -ChecksumType sha256 -Url64 "{{url64}}" -Checksum64 "{{checksum64}}" -ChecksumType64 sha256 -UnzipLocation "$location" -validExitCodes $validExitCodes
 
 $currentPath = [environment]::GetEnvironmentVariable("PATH", "Machine")
 
