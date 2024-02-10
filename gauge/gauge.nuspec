@@ -5,22 +5,23 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>gauge</id>
     <title>Gauge</title>
-    <authors>ThoughtWorks</authors>
+    <authors>Thoughtworks</authors>
     <version>0.0.0</version>
-    <owners>Sharath Satish, Getgauge</owners>
+    <owners>Getgauge</owners>
     <summary>You can use this package to install Gauge on Windows</summary>
     <description>You can use this package to install Gauge on Windows</description>
     <projectUrl>https://gauge.org/</projectUrl>
     <tags>gauge test automation</tags>
-    <copyright>Copyright 2020 ThoughtWorks, Inc.</copyright>
+    <copyright>Copyright 2024 Thoughtworks, Inc.</copyright>
     <licenseUrl>https://www.apache.org/licenses/LICENSE-2.0.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.jsdelivr.net/gh/getgauge/chocolatey-packages@577cd6ab6603291a300968734031e67483085bc6/assets/Gauge_Black_Logo-302x76-8f3692c.png</iconUrl>
     <releaseNotes>https://github.com/getgauge/gauge/releases</releaseNotes>
     <projectSourceUrl>https://github.com/getgauge/gauge</projectSourceUrl>
+    <packageSourceUrl>https://github.com/getgauge/chocolatey-packages</packageSourceUrl>
     <bugTrackerUrl>https://github.com/getgauge/gauge/issues</bugTrackerUrl>
     <docsUrl>https://docs.gauge.org</docsUrl>
-    <mailingListUrl>https://groups.google.com/g/getgauge</mailingListUrl>
+    <mailingListUrl>https://github.com/getgauge/gauge/discussions</mailingListUrl>
   </metadata>
   <files>
     <file src="tools\chocolateyInstall.ps1" target="tools" />
