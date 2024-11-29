@@ -17,7 +17,7 @@
 - `choco push "gauge.<version>.nupkg" -k="<api-key>"`
 
 ## Current packages created from this repository
-### [Gauge](http://getgauge.io/)
+### [Gauge](https://gauge.org/)
 To install Gauge via Chocolatey just run 
 
 ```
